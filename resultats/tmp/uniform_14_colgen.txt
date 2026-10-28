@@ -1,0 +1,2 @@
+valeur LP colgen = 9.3762
+Runtime = 7.31277

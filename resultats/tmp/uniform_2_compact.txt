@@ -1,0 +1,60 @@
+Set parameter TokenServer to value "lic-flex"
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Debian GNU/Linux 12 (bookworm)")
+
+CPU model: Intel(R) Xeon(R) Gold 6154 CPU @ 3.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 32 logical processors, using up to 32 threads
+
+Optimize a model with 25 rows, 156 columns and 312 nonzeros
+Model fingerprint: 0xaf923267
+Variable types: 0 continuous, 156 integer (156 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+02]
+  Objective range  [7e-02, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Found heuristic solution: objective 6.5065011
+Presolve time: 0.00s
+Presolved: 25 rows, 156 columns, 312 nonzeros
+Variable types: 0 continuous, 156 integer (156 binary)
+
+Root relaxation: objective 2.219380e+00, 20 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.21938    0    6    6.50650    2.21938  65.9%     -    0s
+H    0     0                       3.6028316    2.21938  38.4%     -    0s
+H    0     0                       3.3007694    2.21938  32.8%     -    0s
+H    0     0                       3.2608575    2.21938  31.9%     -    0s
+     0     0    2.75060    0   13    3.26086    2.75060  15.6%     -    0s
+
+Cutting planes:
+  Gomory: 4
+  Cover: 9
+  Clique: 9
+  MIR: 3
+  StrongCG: 3
+
+Explored 1 nodes (37 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 32 (of 32 available processors)
+
+Solution count 4: 3.26086 3.30077 3.60283 6.5065 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.260857467883e+00, best bound 3.260857467883e+00, gap 0.0000%
+valeur obj gurobi = 3.26086
+solution (coords facility pour chaque client):
+0.526756 0.0506509
+0.231179 0.486083
+0.526756 0.0506509
+0.526756 0.0506509
+0.526756 0.0506509
+0.231179 0.486083
+0.231179 0.486083
+0.526756 0.0506509
+0.526756 0.0506509
+0.231179 0.486083
+0.231179 0.486083
+0.526756 0.0506509
+valeur solution (calculerValeur) = 3.26086
+Runtime: 0.010679 seconds

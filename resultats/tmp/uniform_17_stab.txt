@@ -1,0 +1,3 @@
+
+Valeur LP finale: 10.3786
+Temps: 8.98703 s
