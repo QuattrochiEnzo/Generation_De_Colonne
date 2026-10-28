@@ -1,0 +1,5 @@
+methode,nb_instances,nb_lignes,nb_ok,temps_moy,temps_med,temps_min,temps_max,val_moy,val_med
+colgen_dp,48,48,48,,25.1872,0.016022,inf,,13.72465
+colgen_mip,48,48,48,,inf,0.064174,inf,,inf
+colgen_stab,48,48,48,,55.6111,0.106255,inf,,15.5647
+compact,48,48,48,,inf,0.010679,inf,,inf
