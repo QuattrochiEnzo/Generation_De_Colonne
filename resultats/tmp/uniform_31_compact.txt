@@ -1,0 +1,33 @@
+Set parameter TokenServer to value "lic-flex"
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Debian GNU/Linux 12 (bookworm)")
+
+CPU model: Intel(R) Xeon(R) Gold 6154 CPU @ 3.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 32 logical processors, using up to 32 threads
+
+Optimize a model with 373 rows, 34782 columns and 69564 nonzeros
+Model fingerprint: 0xb6e2bdfc
+Variable types: 0 continuous, 34782 integer (34782 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+02]
+  Objective range  [8e-04, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+01]
+Presolve time: 0.13s
+Presolved: 373 rows, 34782 columns, 69564 nonzeros
+Variable types: 0 continuous, 34782 integer (34782 binary)
+
+Root relaxation: infeasible, 1357 iterations, 0.06 seconds (0.10 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 1 nodes (1357 simplex iterations) in 0.34 seconds (0.32 work units)
+Thread count was 32 (of 32 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+model pas optimal, status = 3
